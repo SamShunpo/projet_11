@@ -290,3 +290,31 @@ html {
     }
   }
   
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.react-div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+}
+
+.signout-invisible {
+  display: none;
+}
+
+.signout-visible {
+  display: flex;
+}
