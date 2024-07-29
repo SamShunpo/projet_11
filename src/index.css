@@ -318,3 +318,25 @@ html {
 .signout-visible {
   display: flex;
 }
+
+
+/*edit bloc*/
+
+.edit-bloc {
+  padding: 20px 0 20px 0;
+  max-width: 300px;
+  margin: auto;
+  color: white;
+}
+
+.input-edit {
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.edit-bloc-button {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
